@@ -14,7 +14,7 @@ public class ReadProperties {
 	public Properties getObject(){
 		InputStream stream = null;
 		try {
-			stream = new FileInputStream(new File("C:\\Users\\vkvik\\git\\Automation\\SchoolAutomation\\src\\resources\\Login.properties"));
+			stream = new FileInputStream(new File("D:\\Automation\\SchoolAutomation\\src\\resources\\Login.properties"));
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

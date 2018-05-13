@@ -13,7 +13,7 @@ package SchoolPkg;
 			public void invokebrowser(){
 			
 			try {
-				System.setProperty("webdriver.gecko.driver", "D:\\Softwares\\JAVA+Selenium\\Selenium\\chromedriver_win32\\chromedriver.exe");
+				System.setProperty("webdriver.chrome.driver", "D:\\Softwares\\JAVA+Selenium\\Selenium\\chromedriver_win32\\chromedriver.exe");
 				RemoteWebDriver driver = new ChromeDriver();
 				
 				driver.manage().deleteAllCookies();
